@@ -147,7 +147,6 @@ endif
 # Both of these tags will be removed and replaced with "release-keys"
 # when the target-files is signed in a post-build step.
 BUILD_KEYS := release-keys
-BUILD_VERSION_TAGS += release-keys
 BUILD_VERSION_TAGS := $(subst $(space),$(comma),$(sort $(BUILD_VERSION_TAGS)))
 
 # BUILD_FINGERPRINT is used used to uniquely identify the combined build and
